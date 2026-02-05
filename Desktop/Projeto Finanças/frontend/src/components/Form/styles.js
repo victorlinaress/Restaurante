@@ -1,0 +1,48 @@
+import styled from "styled-components";
+
+export const Container = styled.form`
+  max-width: 500px;
+  margin: 20px auto;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px #ccc;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 0px;
+  gap: 10px;
+
+  @media (max-width: 600px) {
+    display: grid;
+  }
+`;
+
+export const Label = styled.label``;
+
+export const Input = styled.input`
+  outline: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+`;
+
+export const RadioGroup = styled.div`
+  display: flex;
+  align-items: center;
+
+  input {
+    margin-left: 10px;
+    accent-color: black;
+    margin-top: 0;
+  }
+`;
+
+export const Button = styled.button`
+padding: 5px 10px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+color:white;
+background-color: teal;
+`;
