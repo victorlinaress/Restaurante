@@ -41,6 +41,8 @@ const Form = () => {
             name="group1"
             onChange={() => setIsExpense(!isExpense)}
           />
+                    <C.Label htmlFor="rExpenses">Entradas</C.Label>
+
 
           <C.Input type="radio" id="expense" name="group1" onChange={() => setIsExpense(!isExpense)} />
 

@@ -1,7 +1,12 @@
 import styled from "styled-components";
 
-export const Container = styled.form`
-  max-width: 500px;
+export const InputContent = styled.div`
+  display: flex;
+  flex-direction: column;
+  `;
+
+export const Container = styled.div`
+  max-width: 1120px;
   margin: 20px auto;
   width: 100%;
   background-color: #fff;
@@ -36,6 +41,8 @@ export const RadioGroup = styled.div`
     accent-color: black;
     margin-top: 0;
   }
+
+  
 `;
 
 export const Button = styled.button`
